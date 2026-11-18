@@ -26,3 +26,8 @@ jobs:
           # curl -X POST -H 'Content-type: application/json' \
           #   --data '{"text":"Deployment failed. Check Actions tab."}' \
           #   ${{ secrets.SLACK_WEBHOOK_URL }}
+
+      - name: Notify on Cancellation
+        if: ${{ github.event.workflow_run.conclusion == 'cancelled' }}
+        run: |
+          echo "Deployment was cancelled. Check the Actions tab."
