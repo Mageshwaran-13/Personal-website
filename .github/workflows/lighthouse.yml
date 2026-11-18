@@ -12,7 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'schedule' || github.event.workflow_run.conclusion == 'success' }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout production branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Run Lighthouse
         uses: treosh/lighthouse-ci-action@v12
