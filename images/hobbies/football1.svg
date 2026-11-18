@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#c8702a"/><stop offset="100%" stop-color="#1a120a"/></linearGradient></defs><rect width="400" height="500" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="3">
+    <path d="M0 430 H400"/>
+    <path d="M120 430 A80 80 0 0 1 280 430"/>
+    <path d="M0 500 L110 430 M400 500 L290 430"/>
+  </g>
+  <ellipse cx="200" cy="432" rx="84" ry="12" fill="#0a0705" opacity="0.45"/>
+  <circle cx="200" cy="230" r="120" fill="#ecdfc8"/>
+  <polygon points="200,186 241.8,216.4 225.8,265.5 174.2,265.5 158.2,216.4" fill="#1a120a"/>
+  <g stroke="#1a120a" stroke-width="5" stroke-linecap="round">
+    <line x1="200" y1="186" x2="200" y2="124"/>
+    <line x1="241.8" y1="216.4" x2="300.8" y2="197.2"/>
+    <line x1="225.8" y1="265.5" x2="262.3" y2="315.7"/>
+    <line x1="174.2" y1="265.5" x2="137.7" y2="315.7"/>
+    <line x1="158.2" y1="216.4" x2="99.2" y2="197.2"/>
+  </g>
+  <path d="M130 130 A120 120 0 0 1 270 130" fill="none" stroke="#c8702a" stroke-width="6" stroke-linecap="round" opacity="0.35"/>
+  <circle cx="200" cy="230" r="120" fill="none" stroke="#f0b877" stroke-width="3"/>
+</svg>

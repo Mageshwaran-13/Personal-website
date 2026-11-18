@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8702a"/>
+      <stop offset="100%" stop-color="#1a120a"/>
+    </linearGradient>
+    <clipPath id="heroClip"><circle cx="200" cy="200" r="200"/></clipPath>
+  </defs>
+  <g clip-path="url(#heroClip)">
+    <rect width="400" height="400" fill="url(#heroGrad)"/>
+    <circle cx="200" cy="158" r="62" fill="#ecdfc8"/>
+    <path d="M80 430 C80 252 320 252 320 430 Z" fill="#ecdfc8"/>
+  </g>
+  <circle cx="318" cy="318" r="34" fill="#5fd3d0"/>
+  <text x="318" y="327" font-family="sans-serif" font-size="24" font-weight="bold" fill="#1a120a" text-anchor="middle">&lt;/&gt;</text>
+</svg>

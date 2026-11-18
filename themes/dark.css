@@ -1,0 +1,75 @@
+/* Dark theme: Arrakis night (the default look).
+   Git exercise: copy over css/theme.css on a theme/* branch.
+   Same token names as css/theme.css. Full replacement for css/theme.css. */
+:root {
+  color-scheme: dark;
+
+  /* Primary Colors: sand on a warm black, like Arrakis after dusk */
+  --color-primary: #f3e8d4;
+  --color-primary-light: #f0b877;
+  --color-primary-dark: #ffffff;
+
+  /* Background Colors */
+  --color-bg: #0a0806;
+  --color-bg-secondary: #110e0a;
+  --color-bg-card: #16120d;
+  --color-header-bg: rgba(10, 8, 6, 0.82);
+
+  /* Text Colors */
+  --color-text: #ebe1cf;
+  --color-text-secondary: #a79b87;
+  --color-text-inverse: #0a0806;
+
+  /* Accent & Borders: spice amber, with one cool "Fremen blue" signal colour */
+  --color-accent: #e8913f;
+  --color-accent-2: #5fd3d0;
+  --color-on-accent: #120b04;
+  --color-border: #2b241a;
+  --color-shadow: rgba(0, 0, 0, 0.55);
+  --color-overlay: rgba(4, 3, 2, 0.65);
+  --color-lightbox: rgba(4, 3, 2, 0.9);
+  --color-glow: rgba(232, 145, 63, 0.24);
+  --color-glow-cool: rgba(95, 211, 208, 0.14);
+  --color-line: rgba(235, 225, 207, 0.07);
+
+  /* Footer */
+  --color-footer-bg: #060504;
+  --color-footer-text: #ebe1cf;
+  --color-footer-muted: #8f8471;
+  --color-footer-line: rgba(235, 225, 207, 0.14);
+
+  /* Family section - warm sub-palette (applied only inside #family) */
+  --family-bg: #130e09;
+  --family-card: #1c150e;
+  --family-primary: #eba45c;
+  --family-primary-light: #f3bd84;
+  --family-border: #3b2b1b;
+  --family-shadow: rgba(0, 0, 0, 0.55);
+  --family-back-from: #3a1c08;
+  --family-back-to: #7b3e10;
+  --family-on: #fdf0dd;
+
+  /* Typography */
+  --font-primary: 'Instrument Sans', 'Segoe UI', system-ui, Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-heading: 'Michroma', 'Eurostile', 'Bank Gothic', 'Segoe UI', system-ui, sans-serif;
+  --font-logo: 'Michroma', 'Eurostile', 'Bank Gothic', 'Segoe UI', system-ui, sans-serif;
+  --font-size-base: 16px;
+  --font-size-hero: 3.3rem;
+  --font-size-h2: 1.9rem;
+  --font-size-period: 1.5rem;
+
+  /* Spacing */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 5.5rem;
+
+  /* Layout */
+  --max-width: 1160px;
+  --header-height: 68px;
+  --border-radius: 2px;
+  --radius-arch: 999px 999px 2px 2px;
+  --transition-speed: 0.3s;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-smooth: cubic-bezier(0.65, 0, 0.35, 1);
+}

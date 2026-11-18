@@ -1,0 +1,75 @@
+/* Warm-tones theme: Dune day (bleached sand and burnt amber).
+   Git exercise: copy over css/theme.css on a theme/* branch.
+   Same token names as css/theme.css. Full replacement for css/theme.css. */
+:root {
+  color-scheme: light;
+
+  /* Primary Colors: ink on bleached desert paper */
+  --color-primary: #1d150d;
+  --color-primary-light: #b4531a;
+  --color-primary-dark: #0e0905;
+
+  /* Background Colors */
+  --color-bg: #e9dfce;
+  --color-bg-secondary: #dfd3be;
+  --color-bg-card: #f3ebdc;
+  --color-header-bg: rgba(233, 223, 206, 0.86);
+
+  /* Text Colors */
+  --color-text: #221a11;
+  --color-text-secondary: #5d5141;
+  --color-text-inverse: #f3ebdc;
+
+  /* Accent & Borders */
+  --color-accent: #b4531a;
+  --color-accent-2: #0d6f6c;
+  --color-on-accent: #fbf3e4;
+  --color-border: #c7b89f;
+  --color-shadow: rgba(60, 38, 14, 0.18);
+  --color-overlay: rgba(20, 12, 4, 0.55);
+  --color-lightbox: rgba(20, 12, 4, 0.82);
+  --color-glow: rgba(180, 83, 26, 0.2);
+  --color-glow-cool: rgba(13, 111, 108, 0.12);
+  --color-line: rgba(34, 26, 17, 0.08);
+
+  /* Footer */
+  --color-footer-bg: #1d150d;
+  --color-footer-text: #f0e5d0;
+  --color-footer-muted: #b3a48c;
+  --color-footer-line: rgba(240, 229, 208, 0.16);
+
+  /* Family section - warm sub-palette (applied only inside #family) */
+  --family-bg: #e2cfb0;
+  --family-card: #f1e4cc;
+  --family-primary: #9a4210;
+  --family-primary-light: #c8702a;
+  --family-border: #cdb38a;
+  --family-shadow: rgba(110, 56, 14, 0.2);
+  --family-back-from: #6b2f08;
+  --family-back-to: #a4511a;
+  --family-on: #fdf0dd;
+
+  /* Typography */
+  --font-primary: 'Instrument Sans', 'Segoe UI', system-ui, Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-heading: 'Michroma', 'Eurostile', 'Bank Gothic', 'Segoe UI', system-ui, sans-serif;
+  --font-logo: 'Michroma', 'Eurostile', 'Bank Gothic', 'Segoe UI', system-ui, sans-serif;
+  --font-size-base: 16px;
+  --font-size-hero: 3.3rem;
+  --font-size-h2: 1.9rem;
+  --font-size-period: 1.5rem;
+
+  /* Spacing */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 5.5rem;
+
+  /* Layout */
+  --max-width: 1160px;
+  --header-height: 68px;
+  --border-radius: 2px;
+  --radius-arch: 999px 999px 2px 2px;
+  --transition-speed: 0.3s;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-smooth: cubic-bezier(0.65, 0, 0.35, 1);
+}

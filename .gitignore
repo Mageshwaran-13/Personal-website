@@ -1,0 +1,19 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Node.js and dependencies (for CI testing or local lint tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Performance & CI artifacts
+.lighthouseci/
+coverage/
+
+# Editor and IDE directories
+.vscode/
+.idea/
+*.swp
+*.swo
