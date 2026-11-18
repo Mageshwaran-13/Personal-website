@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "declaration-block-no-duplicate-properties": true,
+    "property-no-unknown": true
+  }
+}
